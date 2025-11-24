@@ -37,6 +37,9 @@ header {
   color: black;
 }
 /* Create two columns/boxes that floats next to each other */
+flex-container {
+	display: flex;
+}
 nav {
   float: left;
   width: 40%;
@@ -91,7 +94,7 @@ footer {
 <a href="https://obannoncreek.com/" target="_blank"><img src="obannon.jpg" alt="O'Bannon Logo" width="100" height="100"></a>
 <br>
 </header>
-<section>
+<section class="flex-container">
 <nav>
 <h2>Contents</h2>
 <li><a onclick="replaceContent('home')">Home</a><br>
@@ -171,6 +174,7 @@ footer {
 </footer>
 </body>
 </html>
+
 
 
 
